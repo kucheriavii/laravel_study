@@ -13,3 +13,7 @@ Route::get('/about', function () {
 Route::get('/contacts', function () {
     return view('contact');
 });
+
+Route::get('/test', function () {
+    return "<h2>Pizda ruliu</h2>";
+});
